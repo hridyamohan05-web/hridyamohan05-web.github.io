@@ -3,72 +3,82 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hridya K | Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
+<title>Hridya K - Data Science</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
-body{background:#F6F1FF;padding:16px}
-.wrap{max-width:420px;margin:0 auto}
-.hero{background:linear-gradient(135deg,#5B21B6,#7C3AED 50%,#EC4899);border-radius:28px;padding:32px 26px;color:white}
-.hero h1{font-size:34px;font-weight:800}
-.hero p{font-size:12.5px;margin-top:6px;opacity:.9}
-.info{background:white;border-radius:20px;padding:18px 20px;margin-top:12px;display:flex;gap:14px;align-items:center;box-shadow:0 8px 24px rgba(91,33,182,.07)}
-.ic{width:44px;height:44px;background:#F5F3FF;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px}
-.info h4{font-size:13px;color:#4C1D95}
-.info span{font-size:11.5px;color:#777}
-.card{background:white;border-radius:20px;padding:20px;margin-top:12px;box-shadow:0 8px 24px rgba(91,33,182,.07)}
-.card h3{font-size:14px;color:#4C1D95}
-.s{font-size:12px;color:#888;margin-top:3px;line-height:1.6}
-.b{margin-top:10px;background:#F5F3FF;color:#7C3AED;padding:5px 11px;border-radius:12px;font-size:11px;font-weight:700;display:inline-block}
-.about{background:linear-gradient(135deg,#FFF7ED,#FFEDD5);border-radius:20px;padding:22px;margin-top:14px;border:1px solid #FED7AA}
-.about h3{font-size:14px;color:#9A3412}
-.about p{font-size:12.5px;color:#7C2D12;margin-top:8px;line-height:1.8}
-.skill{display:inline-block;background:white;padding:6px 12px;border-radius:20px;font-size:11px;font-weight:700;color:#9A3412;margin:6px 6px 0 0;box-shadow:0 2px 8px rgba(154,52,18,.1)}
-.contact{background:linear-gradient(135deg,#1E1B4B,#5B21B6);border-radius:20px;padding:22px;margin-top:14px;color:white;text-align:center}
-.contact a{color:#C4B5FD;text-decoration:none;font-size:13px;font-weight:700}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#F8FAFC;color:#1E293B}
+.container{max-width:800px;margin:0 auto;padding:20px}
+.header{padding:20px 0;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;color:#4F46E5;font-size:18px}
+.hero{padding:50px 0 30px;text-align:center}
+.hero h1{font-size:40px;font-weight:800}
+.hero h1 span{color:#4F46E5}
+.hero .tag{background:#EEF2FF;color:#4F46E5;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;display:inline-block;margin-top:12px}
+.card{background:white;border:1px solid #E2E8F0;border-radius:16px;padding:24px;margin-top:20px}
+.title{font-size:16px;font-weight:700;margin-bottom:12px;color:#0F172A}
+p{font-size:13px;color:#475569;line-height:1.8}
+.skill{display:inline-block;background:#F1F5F9;padding:6px 12px;border-radius:20px;font-size:11px;font-weight:600;margin:5px 5px 0 0}
+.info{background:#0F172A;color:white;border-radius:16px;padding:20px;margin-top:20px;display:flex;justify-content:space-between}
+@media(max-width:600px){.info{flex-direction:column;gap:12px}}
 </style>
 </head>
 <body>
-<div class="wrap">
+<div class="container">
+
+<div class="header"><div class="logo">Hridya K.</div><div style="font-size:12px;color:#64748B">Data Science & Technology</div></div>
 
 <div class="hero">
-<h1>Hridya K 💜</h1>
-<p>BBA Student @ CCST Karalmanna<br>Palakkad, Kerala, India</p>
+<h1>Hridya K<br><span>Data Science and Technology</span></h1>
+<div class="tag">BBA Graduate • Data Science Student</div>
 </div>
 
-<div class="info"><div class="ic">📍</div><div><h4>Location</h4><span>Palakkad, Kerala, India</span></div></div>
-<div class="info"><div class="ic">📧</div><div><h4>Email</h4><span>hridyamohan05@gmail.com</span></div></div>
-
-<!-- Noufiya Style About Section -->
-<div class="about">
-<h3>✨ About Me</h3>
+<!-- 1. ABOUT -->
+<div class="card">
+<div class="title">About Me</div>
 <p>
-Hello! I'm <b>Hridya K</b>, a passionate BBA student from Palakkad, Kerala. Currently pursuing my Bachelor of Business Administration at CCST College Karalmanna under Calicut University.
+I am a motivated and responsible BBA graduate currently pursuing <b>Data Science at Westberg International</b>. I have a strong interest in Data Science and Technology.
 <br><br>
-I completed my schooling from Sabari PTBHSS Adakkaputhur and I'm deeply interested in business, management, and entrepreneurship. I love learning new things and believe in hard work and dedication.
-<br><br>
-My goal is to build a successful career in business management and make my family proud! 💜
+My goal is to combine my business knowledge with Data Science and technology to create meaningful solutions.
 </p>
-<div style="margin-top:14px">
-<span class="skill">📊 Business Management</span>
-<span class="skill">💼 Entrepreneurship</span>
-<span class="skill">📚 Commerce</span>
-<span class="skill">💻 Digital Skills</span>
-<span class="skill">🤝 Leadership</span>
-</div>
 </div>
 
-<div class="card"><h3>🎓 BBA</h3><div class="s">CCST College Karalmanna - Calicut University<br>Learning business, management and leadership skills</div><div class="b">2023 - 2026 • Pursuing</div></div>
-<div class="card"><h3>📚 Higher Secondary - Commerce</h3><div class="s">Sabari PTBHSS Adakkaputhur, Palakkad<br>Focused on commerce and business studies</div><div class="b">2021 - 2023 • Completed</div></div>
-<div class="card"><h3>🏫 SSLC</h3><div class="s">Sabari PTBHSS Adakkaputhur<br>Completed with good academic performance</div><div class="b">2021 • Completed</div></div>
-
-<div class="contact">
-<h3 style="font-size:14px">Let's Connect! ✨</h3>
-<p style="margin-top:10px"><a href="mailto:hridyamohan05@gmail.com">📧 hridyamohan05@gmail.com</a></p>
-<p style="margin-top:6px;font-size:12px;opacity:.8">📍 Palakkad, Kerala, India</p>
+<!-- 2. QUALIFICATION -->
+<div class="card">
+<div class="title">🎓 Qualification</div>
+<p><b>Data Science</b> - Westberg International<br><span style="color:#4F46E5;font-size:11px;font-weight:600">2025 - Present • Pursuing</span></p>
+<p style="margin-top:12px"><b>BBA</b> - CCST College Karalmanna, Calicut University</p>
 </div>
 
-<div style="text-align:center;margin-top:18px;color:#C4B5FD;font-size:11px">© 2026 Hridya K • 
+<!-- 3. SKILL -->
+<div class="card">
+<div class="title">💼 Skills</div>
+<span class="skill">Data Science</span>
+<span class="skill">Data Analysis</span>
+<span class="skill">Technology</span>
+<span class="skill">Python</span>
+<span class="skill">Business Analysis</span>
+</div>
+
+<!-- 4. LOCATION -->
+<div class="card">
+<div class="title">📍 Location</div>
+<p>Palakkad, Kerala, India - 679503</p>
+</div>
+
+<!-- 5. EMAIL -->
+<div class="card">
+<div class="title">📧 Email ID</div>
+<p><a href="mailto:hridyamohan05@gmail.com" style="color:#4F46E5;font-weight:600;text-decoration:none">hridyamohan05@gmail.com</a></p>
+</div>
+
+<!-- 6. CAREER -->
+<div class="card" style="background:linear-gradient(135deg,#EEF2FF,#F5F3FF);border-color:#C7D2FE">
+<div class="title">🚀 Career - Data Science and Technology</div>
+<p style="color:#4338CA">My career objective is to build a successful career in <b>Data Science and Technology</b> and become a Data Analyst.</p>
+</div>
+
+<div style="text-align:center;margin-top:24px;color:#94A3B8;font-size:11px">© 2026 Hridya K • Data Science and Technology</div>
 
 </div>
 </body>
