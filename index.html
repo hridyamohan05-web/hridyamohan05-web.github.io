@@ -9,84 +9,50 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
 body{background:#F8FAFC;color:#1E293B}
 .container{max-width:800px;margin:0 auto;padding:20px}
-.header{padding:16px 0;display:flex;justify-content:space-between;align-items:center}
-.logo{font-weight:800;color:#4F46E5;font-size:18px}
-.hero{padding:40px 0 20px;text-align:center}
-.hero h1{font-size:38px;font-weight:800;line-height:1.1}
-.hero h1 span{color:#4F46E5}
-.hero .tag{background:#EEF2FF;color:#4F46E5;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;display:inline-block;margin-top:12px}
 .card{background:white;border:1px solid #E2E8F0;border-radius:16px;padding:22px;margin-top:16px}
-.title{font-size:15px;font-weight:700;margin-bottom:12px;color:#0F172A}
-p{font-size:13px;color:#475569;line-height:1.8}
+.title{font-size:15px;font-weight:700;margin-bottom:12px}
 .qual{padding:12px 0;border-bottom:1px solid #F1F5F9}
 .qual:last-child{border:none}
-.qual b{font-size:13px;color:#1E293B}
-.qual .det{font-size:12px;color:#64748B;margin-top:2px}
+.qual b{font-size:13px}
+.qual .det{font-size:12px;color:#64748B}
 .qual .yr{font-size:11px;color:#4F46E5;background:#EEF2FF;padding:3px 8px;border-radius:10px;display:inline-block;margin-top:6px;font-weight:600}
-.skill{display:inline-block;background:#F1F5F9;padding:6px 12px;border-radius:20px;font-size:11px;font-weight:600;margin:5px 5px 0 0}
-.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-size:12px;font-weight:600;margin:6px 6px 0 0}
-.btn-call{background:#4F46E5;color:white}
-.btn-wa{background:#22C55E;color:white}
-.lang{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #F1F5F9}
+.lang{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #F1F5F9}
 .lang:last-child{border:none}
 .lang b{font-size:13px}
 .lang span{font-size:11px;background:#EEF2FF;color:#4F46E5;padding:4px 10px;border-radius:20px;font-weight:600}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;text-decoration:none;font-size:12px;font-weight:600;margin:6px 6px 0 0;color:white}
+.btn-call{background:#4F46E5}
+.btn-wa{background:#22C55E}
 </style>
 </head>
 <body>
 <div class="container">
 
-<div class="header"><div class="logo">Hridya K.</div><div style="font-size:11px;color:#64748B">Data Science & Technology</div></div>
-
-<div class="hero">
-<h1>Hridya K<br><span>Data Science and Technology</span></h1>
-<div class="tag">BBA Graduate • Data Science Student • Palakkad</div>
+<div style="text-align:center;padding:30px 0">
+<h1 style="font-size:36px;font-weight:800">Hridya K<br><span style="color:#4F46E5">Data Science</span></h1>
 </div>
 
-<div class="card">
-<div class="title">👩‍💻 About Me</div>
-<p>I am a motivated BBA graduate pursuing <b>Data Science at Westberg International</b>. Interested in Data Science and Technology. Strengths: communication, teamwork, time management, quick learning.</p>
+<div class="card"><div class="title">👩‍💻 About Me</div><p style="font-size:13px;color:#475569;line-height:1.7">BBA graduate pursuing Data Science at Westberg International. Interested in Data Science and Technology.</p></div>
+
+<div class="card"><div class="title">🎓 Qualification</div>
+<div class="qual"><b>📊 Data Science</b><div class="det">Westberg International</div><div class="yr">2025 - Present</div></div>
+<div class="qual"><b>🎓 BBA</b><div class="det">CCST College Karalmanna</div><div class="yr">2023 - 2026</div></div>
+<div class="qual"><b>📚 Plus Two Commerce</b><div class="det">Sabari PTBHSS Adakkaputhur</div><div class="yr">2021 - 2023</div></div>
+<div class="qual"><b>🏫 SSLC</b><div class="det">Sabari PTBHSS</div><div class="yr">2021</div></div>
 </div>
 
-<!-- LANGUAGE CARD NEW -->
-<div class="card">
-<div class="title">🗣️ Languages Known</div>
+<!-- LANGUAGE AFTER QUALIFICATION - BEST PLACE -->
+<div class="card"><div class="title">🗣️ Languages Known</div>
 <div class="lang"><b>🇮🇳 Malayalam</b><span>Native</span></div>
 <div class="lang"><b>🇬🇧 English</b><span>Fluent</span></div>
 <div class="lang"><b>🇮🇳 Hindi</b><span>Intermediate</span></div>
 </div>
 
-<div class="card">
-<div class="title">🎓 Qualification</div>
-<div class="qual"><b>📊 Data Science</b><div class="det">Westberg International</div><div class="yr">2025 - Present</div></div>
-<div class="qual"><b>🎓 BBA</b><div class="det">CCST College Karalmanna, Calicut University</div><div class="yr">2023 - 2026</div></div>
-<div class="qual"><b>📚 Plus Two - Commerce</b><div class="det">Sabari PTBHSS Adakkaputhur</div><div class="yr">2021 - 2023</div></div>
-<div class="qual"><b>🏫 SSLC</b><div class="det">Sabari PTBHSS Adakkaputhur</div><div class="yr">2021</div></div>
-</div>
+<div class="card" style="background:#EEF2FF"><div class="title">📞 Contact</div><p style="margin-bottom:10px"><b>6235206737</b></p><a href="tel:6235206737" class="btn btn-call">📞 Call</a><a href="https://wa.me/916235206737" class="btn btn-wa">💬 WhatsApp</a></div>
 
-<div class="card" style="background:linear-gradient(135deg,#EEF2FF,#F0FDF4);border-color:#A7F3D0">
-<div class="title">📞 Contact Me</div>
-<p style="margin-bottom:12px"><b style="font-size:14px;color:#1E293B">Phone: 6235206737</b><br><span style="font-size:12px">Palakkad, Kerala - Available for opportunities</span></p>
-<a href="tel:6235206737" class="btn btn-call">📞 Call Now</a>
-<a href="https://wa.me/916235206737" class="btn btn-wa">💬 WhatsApp</a>
-</div>
+<div class="card"><div class="title">📧 Email</div><p><a href="mailto:hridyamohan05@gmail.com" style="color:#4F46E5;font-weight:600;text-decoration:none">hridyamohan05@gmail.com</a></p></div>
 
-<div class="card">
-<div class="title">📍 Location</div>
-<p>Palakkad, Kerala, India - Adakkaputhur (PO) 679503</p>
-</div>
-
-<div class="card">
-<div class="title">📧 Email ID</div>
-<p><a href="mailto:hridyamohan05@gmail.com" style="color:#4F46E5;font-weight:600;text-decoration:none">hridyamohan05@gmail.com</a></p>
-</div>
-
-<div class="card" style="background:linear-gradient(135deg,#EEF2FF,#F5F3FF);border-color:#C7D2FE">
-<div class="title">🚀 Career - Data Science and Technology</div>
-<p style="color:#4338CA">My career objective is to build a successful career in <b>Data Science and Technology</b> and become a Data Analyst / Business Analyst.</p>
-</div>
-
-<div style="text-align:center;margin-top:20px;color:#94A3B8;font-size:11px">© 2026 Hridya K • Data Science Enthusiast</div>
+<div style="text-align:center;margin-top:20px;font-size:11px;color:#94A3B8">© 2026 Hridya K</div>
 
 </div>
 </body>
