@@ -9,61 +9,90 @@
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
 body{background:#F8FAFC;color:#1E293B}
 .container{max-width:800px;margin:0 auto;padding:20px}
-.header{padding:20px 0;display:flex;justify-content:space-between;align-items:center}
+.header{padding:16px 0;display:flex;justify-content:space-between;align-items:center}
 .logo{font-weight:800;color:#4F46E5;font-size:18px}
-.hero{padding:50px 0 30px;text-align:center}
-.hero h1{font-size:40px;font-weight:800}
+.hero{padding:40px 0 20px;text-align:center}
+.hero h1{font-size:38px;font-weight:800;line-height:1.1}
 .hero h1 span{color:#4F46E5}
 .hero .tag{background:#EEF2FF;color:#4F46E5;padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;display:inline-block;margin-top:12px}
-.card{background:white;border:1px solid #E2E8F0;border-radius:16px;padding:24px;margin-top:20px}
-.title{font-size:16px;font-weight:700;margin-bottom:12px;color:#0F172A}
+.card{background:white;border:1px solid #E2E8F0;border-radius:16px;padding:22px;margin-top:16px}
+.title{font-size:15px;font-weight:700;margin-bottom:12px;color:#0F172A}
 p{font-size:13px;color:#475569;line-height:1.8}
+.qual{padding:12px 0;border-bottom:1px solid #F1F5F9}
+.qual:last-child{border:none}
+.qual b{font-size:13px;color:#1E293B}
+.qual .det{font-size:12px;color:#64748B;margin-top:2px}
+.qual .yr{font-size:11px;color:#4F46E5;background:#EEF2FF;padding:3px 8px;border-radius:10px;display:inline-block;margin-top:6px;font-weight:600}
 .skill{display:inline-block;background:#F1F5F9;padding:6px 12px;border-radius:20px;font-size:11px;font-weight:600;margin:5px 5px 0 0}
-.info{background:#0F172A;color:white;border-radius:16px;padding:20px;margin-top:20px;display:flex;justify-content:space-between}
-@media(max-width:600px){.info{flex-direction:column;gap:12px}}
 </style>
 </head>
 <body>
 <div class="container">
 
-<div class="header"><div class="logo">Hridya K.</div><div style="font-size:12px;color:#64748B">Data Science & Technology</div></div>
+<div class="header"><div class="logo">Hridya K.</div><div style="font-size:11px;color:#64748B">Data Science & Technology</div></div>
 
 <div class="hero">
 <h1>Hridya K<br><span>Data Science and Technology</span></h1>
-<div class="tag">BBA Graduate • Data Science Student</div>
+<div class="tag">BBA Graduate • Data Science Student • Palakkad</div>
 </div>
 
 <!-- 1. ABOUT -->
 <div class="card">
-<div class="title">About Me</div>
+<div class="title">👩‍💻 About Me</div>
 <p>
 I am a motivated and responsible BBA graduate currently pursuing <b>Data Science at Westberg International</b>. I have a strong interest in Data Science and Technology.
+<br><br>
+My strengths include communication, customer service, teamwork, time management, and quick learning.
 <br><br>
 My goal is to combine my business knowledge with Data Science and technology to create meaningful solutions.
 </p>
 </div>
 
-<!-- 2. QUALIFICATION -->
+<!-- 2. QUALIFICATION - Full with SSLC +2 -->
 <div class="card">
 <div class="title">🎓 Qualification</div>
-<p><b>Data Science</b> - Westberg International<br><span style="color:#4F46E5;font-size:11px;font-weight:600">2025 - Present • Pursuing</span></p>
-<p style="margin-top:12px"><b>BBA</b> - CCST College Karalmanna, Calicut University</p>
+
+<div class="qual">
+<b>📊 Data Science</b>
+<div class="det">Westberg International - Data Science & Technology Program</div>
+<div class="yr">2025 - Present • Pursuing</div>
+</div>
+
+<div class="qual">
+<b>🎓 BBA - Bachelor of Business Administration</b>
+<div class="det">CCST College Karalmanna, Calicut University, Kerala</div>
+<div class="yr">2023 - 2026 • Graduate</div>
+</div>
+
+<div class="qual">
+<b>📚 Higher Secondary - Commerce (+2)</b>
+<div class="det">Sabari PTBHSS Adakkaputhur, Palakkad, Kerala</div>
+<div class="yr">2021 - 2023 • Completed</div>
+</div>
+
+<div class="qual">
+<b>🏫 SSLC</b>
+<div class="det">Sabari PTBHSS Adakkaputhur, Palakkad, Kerala</div>
+<div class="yr">2021 • Completed</div>
+</div>
+
 </div>
 
 <!-- 3. SKILL -->
 <div class="card">
 <div class="title">💼 Skills</div>
-<span class="skill">Data Science</span>
-<span class="skill">Data Analysis</span>
-<span class="skill">Technology</span>
-<span class="skill">Python</span>
-<span class="skill">Business Analysis</span>
+<span class="skill">📊 Data Science</span>
+<span class="skill">📈 Data Analysis</span>
+<span class="skill">💻 Technology</span>
+<span class="skill">💬 Communication</span>
+<span class="skill">🤝 Teamwork</span>
+<span class="skill">⏰ Time Management</span>
 </div>
 
 <!-- 4. LOCATION -->
 <div class="card">
 <div class="title">📍 Location</div>
-<p>Palakkad, Kerala, India - 679503</p>
+<p>Palakkad, Kerala, India<br>Adakkaputhur (PO) - 679503</p>
 </div>
 
 <!-- 5. EMAIL -->
@@ -75,10 +104,10 @@ My goal is to combine my business knowledge with Data Science and technology to 
 <!-- 6. CAREER -->
 <div class="card" style="background:linear-gradient(135deg,#EEF2FF,#F5F3FF);border-color:#C7D2FE">
 <div class="title">🚀 Career - Data Science and Technology</div>
-<p style="color:#4338CA">My career objective is to build a successful career in <b>Data Science and Technology</b> and become a Data Analyst.</p>
+<p style="color:#4338CA">My career objective is to build a successful career in <b>Data Science and Technology</b> and become a Data Analyst / Business Analyst in a technology-driven organization.</p>
 </div>
 
-<div style="text-align:center;margin-top:24px;color:#94A3B8;font-size:11px">© 2026 Hridya K • Data Science and Technology</div>
+<div style="text-align:center;margin-top:20px;color:#94A3B8;font-size:11px">© 2026 Hridya K • Data Science and Technology Enthusiast</div>
 
 </div>
 </body>
